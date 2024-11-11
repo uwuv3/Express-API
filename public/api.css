@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  background: #55787f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #55787f,
+    #17354b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #55787f,
+    #17354b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+}
+.title {
+  position: static;
+  text-align: center;
+  transition: font-size 0.5s ease;
+  font-size: 64px;
+}
+
+.body {
+  margin-top: 40px;
+  background: #111827;
+  display: flex;
+  border-radius: 20px;
+  border: 2px solid;
+  min-height: 70%;
+  position: static;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.body div {
+  background: #414345;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  min-width: 90%;
+  max-width: 90%;
+  min-height: 60px;
+  max-height: 200px;
+  box-shadow: 2px 2px lightblue;
+  border-radius: 10px;
+  border: 2px solid;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px;
+}
+.body div h5,
+.body div h6 {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.body div h5 {
+  margin: 0;
+  font-size: 32px;
+  transition: font-size 0.5s ease;
+}
+.body div h6 {
+  margin: 1;
+  font-size: 24px;
+  transition: font-size 0.5s ease;
+}
+
+.body button {
+  margin-top: 10px;
+  align-self: flex-end;
+  margin-left: 600px;
+  background: blue;
+  padding: 15px 25px;
+  border: 1px solid blue;
+  border-radius: 40px;
+  font-size: 14px;
+  transition: border 0.5s ease, margin-left 0.5s ease, font-size 0.5 ease;
+}
+
+.body button:hover {
+  border: 1px solid #000000; /* Change border color to black on hover */
+}
+.body button:active {
+  border: 0px;
+}
+
+.footer {
+  margin-top: 20px;
+  padding: 5%;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.footer .row {
+  width: 100%;
+  margin: 1% 0%;
+  padding: 0.6% 0%;
+  color: gray;
+  font-size: 0.8em;
+}
+
+.footer .row a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.5s;
+}
+
+.footer .row a:hover {
+  color: #fff;
+}
+
+.footer .row ul {
+  width: 100%;
+}
+
+.footer .row ul li {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+.footer .row a i {
+  font-size: 2em;
+  margin: 0% 1%;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    text-align: left;
+    padding: 5%;
+  }
+  .footer .row ul li {
+    display: block;
+    margin: 10px 0px;
+    text-align: left;
+  }
+  .footer .row a i {
+    margin: 0% 3%;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+  .body button {
+    margin-left: 250px;
+    padding: 8px 12px;
+    font-size: 4px;
+  }
+  .body div h5 {
+    font-size: 12px;
+  }
+  .body div h6 {
+    font-size: 6px; /* Inherit the font size from the parent (h5) on mobile */
+  }
+}
