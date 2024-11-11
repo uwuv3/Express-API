@@ -1,0 +1,46 @@
+{
+  "keys": {
+    "genius": "",
+    "googleAPI": ""
+  },
+  "discordBot":{
+    "publicKey":"",
+    "appID": "",
+    "token":""
+  },
+  "footerLinks": [
+    { "title": "Discord", "href": "https://discord.gg/VyJYrGcM6u" }
+  ],
+  "pages": [
+    {
+      "title": "Kontrol URL",
+      "description": "URL Kontrol etmemizi sağlar",
+      "href": "api/kontrolurl/net.uptrical.xyz"
+    },
+    {
+      "title": "Döviz",
+      "description": "Dolar,Euro,Sterlin vb para birimlerinin türkiyedeki karşılığını atar",
+      "href": "api/doviz"
+    },
+    {
+      "title": "Lyrics",
+      "description": "Bir Şarkının Şarkı sözünü atar",
+      "href": "api/lyrics/past-lives"
+    },
+    {
+      "title": "Şarkı",
+      "description": "Bir Şarkıyı arar",
+      "href": "api/song/past-lives"
+    },
+    {
+      "title": "Roblox profil Api",
+      "description": "Bu api sizin girdiğiniz isimdeki roblox profil bilgilerini verir",
+      "href": "api/roblox/ReakLow"
+    },
+    {
+      "title": "Google Arama apisi",
+      "description": "Google'da arama sonuçları almanızda yardımcı olur.",
+      "href": "api/search/menemen/6"
+    }
+  ]
+}
